@@ -1,0 +1,25 @@
+# Core Python
+numpy
+pandas
+
+# Machine Learning
+scikit-learn
+joblib
+tensorflow
+
+# Streaming
+kafka-python
+
+# Backend & Dashboard
+flask
+flask-cors
+
+# Database
+psycopg2-binary
+
+# Visualization
+matplotlib
+seaborn
+
+# Utilities
+python-dateutil
