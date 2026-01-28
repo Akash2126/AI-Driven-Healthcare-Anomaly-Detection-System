@@ -1,0 +1,6 @@
+@echo off
+echo Activating virtual environment...
+call venv\Scripts\activate
+
+echo Starting Kafka Consumer (ML + DB + Email)...
+python streaming_consumer_ml.py

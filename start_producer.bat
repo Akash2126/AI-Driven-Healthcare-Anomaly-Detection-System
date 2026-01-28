@@ -1,0 +1,6 @@
+@echo off
+echo Activating virtual environment...
+call venv\Scripts\activate
+
+echo Starting Kafka Producer...
+python utils\streaming_producer.py

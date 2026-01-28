@@ -1,0 +1,66 @@
+body {
+    background: #0f111a;
+    color: #e5e7eb;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+header {
+    padding: 20px;
+    border-bottom: 1px solid #333;
+}
+
+.kpis {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.kpi {
+    background: #161925;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.controls {
+    margin-bottom: 15px;
+}
+
+select, button {
+    padding: 6px;
+    margin-right: 10px;
+}
+
+table {
+    width: 100%;
+    background: #161925;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+
+.sev-HIGH { color: #ef4444; font-weight: bold; }
+.sev-MEDIUM { color: #f59e0b; font-weight: bold; }
+.sev-LOW { color: #22c55e; font-weight: bold; }
+
+.charts {
+    margin-top: 30px;
+}
+
+footer {
+    text-align: center;
+    margin: 20px;
+    font-size: 12px;
+    color: #777;
+}
